@@ -2,8 +2,11 @@ Java, Maven
 
 “Print numbers 1–50, but multiples of 3 say Fizz, multiples of 5 say Buzz, 3 & 5 say FizzBuzz.”
 
-mvn exec:java -Dexec.mainClass=com.example.NumbersPrint
+Code can be found below, firstly my function will check for the numbers that are both - multiplied by 3 & 5, and then are checking by divided by 5 and 3 and print out the result.  
 
+../hello/src/main/java/com/example/NumbersPrint.java
+
+mvn exec:java -Dexec.mainClass=com.example.NumbersPrint
 
 
 <img width="457" height="812" alt="image" src="https://github.com/user-attachments/assets/d11aeb0e-4d90-4d16-9364-b1b1932f0e0d" />

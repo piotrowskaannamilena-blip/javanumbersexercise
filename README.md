@@ -27,3 +27,6 @@ mvn package
 mvn clean compile
 mvn compile
 mvn exec:java -Dexec.mainClass="com.example.NumbersPrint"
+
+On package.json 
+"java.jdt.ls.java.home": "${env:JAVA_HOME}",
